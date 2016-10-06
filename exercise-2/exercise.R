@@ -4,7 +4,7 @@
 # "The difference in lengths is N"
 CompareLength <- function(a, b){
   difference <- a - b
-  return("The difference in lengths is " + difference)
+  return(paste("The difference in lengths is", difference))
 }
 
 # Pass two vectors of different length to your `CompareLength` function
